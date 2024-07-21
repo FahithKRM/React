@@ -80,7 +80,7 @@ const TicTacToe = () => {
 
   return (
     <div className='container'>
-      <h1 className="title" ref={titleref}>Tic Tac Toe Game</h1>
+      <h1 className="title" ref={titleref}>TIC TAC TOE GAME</h1>
       <div className="board">
         <div className="row1">
             <div className="boxes" ref={box1} onClick={(element) =>{toggle(element, 0)}}></div>
